@@ -1,4 +1,4 @@
-// 1.
+// 1. [mostly used]
 function makeBackgroundRed(){
     document.body.style.backgroundColor = 'red';
 }
@@ -39,7 +39,7 @@ slateBlueButton.addEventListener('click', function(){
     document.body.style.backgroundColor = "slateblue";
 })
 
-// 6. handle by using addEventListener (short way) and anonymous function
+// 6. handle by using addEventListener (short way) and anonymous function [mostly used]
 document.getElementById('make-hotpink-button').addEventListener('click', function(){
     document.body.style.backgroundColor = "hotpink";
 })
